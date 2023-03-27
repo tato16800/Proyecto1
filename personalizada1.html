@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personalizada1</title>
+        <link rel="stylesheet" href=".\css\Diseño1.css" />
+    </head>
+
+    <body>
+        <h1>Mantenimieto de Computadores</h1>
+        <p>Llevamos a cabo una arreglos y mantenimiento en equipos de computo durante
+            todo el año.</p>
+        <ul>
+            <li>Mantenimieto Preventivo</li>
+            <li>Venta de partes</1i>
+            <li>Venta de Computadores y servidores</li>
+        </ul>
+        <table>
+            <tr class="head">
+                <th></th>
+                <th>Bogotá</th>
+                <th>Cali</th>
+                <th>Medellín</th>
+            <tr>
+                <th>Unilago</th>
+                <td> Sab, 4 Feb 2023<br />8am - 6pm</td>
+                <td> Sab, 3 Mar 2023<br />8am - 6pm</td>
+                <td>Sab, 17 Mar 2023<br />8am - 6pm</td>
+            </tr>
+            <tr class="even">
+                <th>Centro de altatecnologia</th>
+                <td>Sab, 7 Abr 2023<br />8am - 6pm</td>
+                <td> Sab, 5 May 2023<br />8am - 6pm</td>
+                <td> Sab, 19 May 2023<br />8am - 6pm</td>
+            </tr>
+            <tr>
+                <th>Titan Plaza</th>
+                <td> Sab, 9 Jun 2023<br />9am - 7pm</td>
+                <td> Sab, 7 Jul 2023<br />9am - 7pm</td>
+                <td>Sab, 21 Jul 2023<br />9am - 7pm</td>
+            </tr>
+        </table>
+        <br>
+        <form action="actividad 02.html" method="get">
+            <fieldset>
+                <legend>Contactenos:</legend>
+                <p><label class="title" for="name">Su Nombre:</label>
+                    <input type="text" name="name" id="name"><br />
+                    <label class="title" for="email">Su correo:</label>
+                    <input type="text" name="email" id="email">
+                </p>
+                <p><label for="location" class="title">Su centro cercano:</label>
+                    <select name="location" id="location">
+                        <option value="bo">Bogotá</option>
+                        <option value="ib">Ibagué</option>
+                        <option value="me">Medellín</option>
+                    </select>
+                </p>
+                <p><label for="location" class="title">Lugar:</label>
+                    <select name="location" id="location">
+                        <option value="bo">Unilago</option>
+                        <option value="ib">Altatecnologia</option>
+                        <option value="me">Titan Plaza</option>
+                    </select>
+                </p>
+                <span class="title">Es Usted mayor de edad?</span>
+                <label><input type="radio" name="member" value="si" />
+                    Si</label>
+                <label><input type="radio" name="member" value="no" />
+                    No</label></p>
+            </fieldset>
+            <div class="submit"><input type="submit" value="Registro" />
+            </div>
+        </form>
+    </body>
+</html>
